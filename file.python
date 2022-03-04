@@ -1,0 +1,10 @@
+
+get all scenes
+create dataframe one row per resolution
+remove files already processed
+udf
+    make sure file not already in bucket
+    run ffmpeg command
+    find size of file
+    copy to s3
+    return location and file size
